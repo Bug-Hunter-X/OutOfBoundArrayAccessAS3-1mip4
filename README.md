@@ -1,0 +1,1 @@
+This example demonstrates a common error in ActionScript 3 related to accessing array indices beyond the array's allocated size.  ActionScript arrays aren't dynamically resized in the same way as some other languages; exceeding the allocated size can cause exceptions or unexpected behavior. The solution shows a safer way to handle large arrays or dynamic array growth.
